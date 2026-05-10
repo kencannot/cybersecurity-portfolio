@@ -20,3 +20,18 @@ graph LR
     Server
   end
 ```
+## Screenshots
+Ping test between client and server:
+
+![Ping test](ping-test-1.png)
+![Ping test](ping-test-2.png)
+
+
+
+UFW firewall status on the server:
+
+![UFW status (server)](ufw-status-1.png)
+
+UFW firewall status on the client:
+
+![UFW status (client)](ufw-status-2.png)
