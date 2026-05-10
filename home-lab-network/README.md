@@ -1,10 +1,11 @@
-# Home Lab Network – Small Enterprise Environment
+Home lab overview
+This lab simulates a small, isolated network with two Ubuntu virtual machines acting as a server and client. The VMs run on a VirtualBox internal network with static IP addresses and no direct internet access.
 
-This project simulates a small company network using VirtualBox virtual machines.  
-I built a simple environment with a server and client machines, then applied basic security controls to practice real-world IT and cybersecurity skills.
+What I configured
+Set up two Ubuntu VMs on a VirtualBox Internal Network and configured static IP addresses for each host.
 
-## Goals
+Verified connectivity using ICMP ping in both directions between the server and client.
 
-- Practice setting up and managing a small network in a lab.
-- Harden systems with basic security configurations.
-- Document changes clearly, similar to real IT/cyber work.
+Enabled the UFW firewall on both VMs with a default deny policy for incoming traffic and allowed only essential services (such as SSH).
+
+Created separate non‑admin user accounts and applied system updates on both machines to practice basic system hardening.
