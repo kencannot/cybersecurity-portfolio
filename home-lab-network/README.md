@@ -15,7 +15,7 @@ Created separate non‑admin user accounts and applied system updates on both ma
 ```mermaid
 graph LR
   Client[Ubuntu Client\n192.168.10.11] -- ICMP/SSH --> Server[Ubuntu Server\n192.168.10.10]
-  subgraph VirtualBox Internal Network (LabNet1)
+  subgraph "VirtualBox Internal Network (LabNet1)"
     Client
     Server
   end
