@@ -26,3 +26,7 @@ python log_filter.py sample.log
 This will:
 - Read `sample.log`.
 - Print only the lines that contain keywords like "error", "fail", "denied", "invalid", or "warning".
+
+- Testing:
+- Positive test: run the script on a log file that contains errors and warnings and see only those lines printed.
+- Negative test: run the script on a "clean" log file with only normal info messages and expect no output.
