@@ -14,3 +14,15 @@ Skills practiced:
 - Working with files in Python.
 - Basic string matching and filtering.
 - Writing simple, reusable command-line tools.
+
+## How to run
+
+Example usage:
+
+```bash
+python log_filter.py sample.log
+```
+
+This will:
+- Read `sample.log`.
+- Print only the lines that contain keywords like "error", "fail", "denied", "invalid", or "warning".
